@@ -1,0 +1,180 @@
+.area{
+    /* border: 2px solid black; */
+    width: 99vw;
+    height: 82.5vh;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: scroll;
+    background: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
+.area .box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    color: white;
+    right: 20%;
+    background-color: green;
+    /* border: 2px solid red; */
+    width: 60vw;
+    border-radius: 2vh;
+    height: 35vh;
+    z-index: 1000;
+}
+.box .side1 .h-09{
+font-size: 2vw;
+}
+.eth{
+position: relative;
+    font-family: "Nunito Sans", sans-serif;
+    height: 98.5vh !important;
+    /* border: 3px solid purple; */
+}
+.form-1{
+
+    position: absolute;
+    bottom: 0vh;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-end; */
+}
+.box .side1{
+    text-align: center;
+}
+.btn-2{
+    padding: 0.5vh 2vw;
+    border-radius: 1vh;
+    font-size: 0.9rem;
+    /* border:2px solid black; */
+    background-color: orange;
+    color: black;
+}
+#message{
+    margin-top: 1vh;
+    border-radius: 1.3vh;
+    height: 7vh;
+    width: 92%;font-size: 2.5vw;
+}
+.right{
+    text-align: right;
+    color: Green;
+}
+.left{
+    text-align: left;
+    color: blue;}
+.btn-11{
+    background-color: black;
+    color: white;
+    padding: .5vh 9vh;
+    border-radius: 1.5vh;
+}
+.head{
+    border-bottom: 2px solid black;
+    height: 8.5vh;
+    margin-top: 0vh;
+    display: flex;
+    justify-content: space-between;
+    width: 99.5%;
+}
+.h-1{
+    padding-left: 4vh;
+    width: 49.5%;
+    /* border: 2px solid black; */
+}
+.h-2{
+    width: 50.5%;
+    display: flex;
+    justify-content: flex-end;
+    /* border: 2px solid red; */
+}
+.h-01{
+    margin-top: 1vh;
+    font-size: 3.5vh;}
+.h-02{
+    margin-top: -2vh;
+    font-size: 2.5vh;}
+.size{
+    /* border: 2px solid black; */
+    width: 3rem;
+    margin: 0vh 1vh;
+    height: 92%;
+}
+.btn-1{
+    background-color: black;
+    color: white;
+    border-radius: 3%;}
+.btn-1:hover{
+    background-color: green;
+    color: white;
+    border: 2px solid black;}
+.form-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+        gap: -1vh !important;}
+#mes-1{
+    height: 6.2vh;
+width: 85%;
+font-size: 2.3vh;
+font-weight: 600;
+color: black;
+border: 1px solid black;
+border-radius: .1rem;
+}
+.btn-1{
+    margin-top: 0vh;
+    height: 7vh;
+width: 16%;
+border: 2px solid black;
+}
+/* .messages{border-radius: 2vh;margin: 1vh;} */
+.side2{
+display: flex;
+flex-direction: row;
+gap: 1vh;    
+}
+.side1 h1{
+    font-size: 2.3vw;
+}
+.msg-1{
+    width: 98vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid purple; */
+}
+.messages{
+    margin: .5vh 0vh;
+    padding:0vh 2vh;
+    font-size: 1.3rem;
+}
+@media screen and (width < 600px){
+    .eth{
+        position: relative;
+            font-family: "Nunito Sans", sans-serif;
+            height: 100vh !important;
+            /* border: 3px solid purple; */
+        }
+        .area{
+            /* border: 2px solid black; */
+            width: 99vw;
+            height: 85.1vh;
+            display: flex;
+            flex-direction: column-reverse;
+            overflow-y: scroll;
+            background: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            scrollbar-width: thin;
+            scroll-behavior: smooth;
+        }
+}

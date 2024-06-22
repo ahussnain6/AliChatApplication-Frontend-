@@ -1,0 +1,127 @@
+.color-w{
+ color: black;
+ text-align: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;}
+.box1{
+    /* border: 2px solid white; */
+    height: 70%;
+    width: 90%;
+margin-top: -1vh;
+}
+.btn-19:hover{
+    background-color: green;
+    color: black;}
+.font{
+    font-family: "Montserrat", sans-serif;
+}
+@media screen and (width >= 600px) {
+    .head-1{
+        color: greenyellow;
+        font-size: 2rem;
+    }
+    .color-w{
+        font-size: 1.7rem;
+        color: black;
+        text-align: center;
+       }
+    .signup{
+        height: 70vh;
+        width: 50vw;
+        border: 3px solid black;
+        background-color: white;
+        border-radius:3vh;  
+    }
+    .margin-1{
+        font-size: 1.6rem;
+        margin-top: -5vh;
+        text-align: center;
+        cursor: pointer;  }
+    .input{
+        display: flex;
+       width: 30vw;
+       height: 5vh;
+       border-top:none;
+       border-left: none;
+       border-right: none;
+       border-bottom: 2px solid black;
+       color: black;
+       background-color: transparent;
+       margin-bottom: 4vh;
+       font-size: 1.8vw;
+    }
+    .btn-19{
+        background-color: black;
+        color: yellowgreen;
+        border:  none;
+        font-weight: 700;
+        border-radius: 1.3vh;
+        padding: 1vh 4vh;
+        float: right;
+    }
+
+}
+@media screen and (width < 600px){
+   .head-1{
+   color: yellowgreen;
+    font-size:1.6rem;
+   }
+   .color-w{
+    font-size: 1.6rem;
+    color: black;
+    text-align: center;
+   }
+   .margin-1{
+    font-size: 1rem !important;
+    margin-top: -5vh;
+    text-align: center;
+    cursor: pointer;  }
+    .signup{
+        height: 60vh;
+        width: 88vw;
+        border: 3px solid black;
+        background-color: white;
+        border-radius:3vh;  
+    }
+    .margin-1{
+        font-size: 2.8vw;
+        margin-top: -2vh;
+        cursor: pointer;
+    }
+    .input{
+        display: flex;
+       width: 55vw;
+       height: 5vh;
+       border-top:none;
+       border-left: none;
+       border-right: none;
+       border-bottom: 2px solid black;
+       color: black;
+       background-color: transparent;
+       margin-bottom: 3vh;
+       font-size: 3.3vw;
+    }
+    .btn-19{
+        background-color: black;
+        color: green;
+        border:  none;
+        font-weight: 700;
+        border-radius: 1.3vh;
+        padding: 1vh 1vh;
+        float: right;
+    }
+}
+input[type=text]:focus {
+    border-bottom: 4px solid green;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline:none ;
+  }
+  .font{
+    font-family: "Roboto Condensed", sans-serif;
+  }

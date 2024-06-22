@@ -1,0 +1,17 @@
+.head-1{
+  text-align: center;
+  font-size: 3vw;
+  margin-bottom: 7vh;
+}
+.main-1{
+  background: linear-gradient(to right,green,black);
+  width: 99.7vw;
+  height: 103vh;
+  margin-top: -3.5vh;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
